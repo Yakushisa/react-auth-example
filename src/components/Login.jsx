@@ -45,7 +45,7 @@ export default class Login extends Component {
         <div class="col-4">
           <form class="form-group" onSubmit={this.onSubmit}>
            <div class="form-group">
-              <h3>SignIn</h3>
+              <h3>Login</h3>
               <input
                 type="email"
                 name="email"
