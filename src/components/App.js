@@ -4,7 +4,7 @@ import withAuth from './withAuth';
 import Home from './Home';
 import Secret from './Secret';
 import Login from './Login';
-import Resgiter from './Register';
+import Register from './Register';
 
 class App extends Component {
   render() {
