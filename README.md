@@ -1,3 +1,12 @@
+### Stack:
+
+- Reactjs
+- React Router
+- Express
+- MongoDB
+- Bootstrap 4
+
+
 ### Start MongoDB:
 - mongod
 
