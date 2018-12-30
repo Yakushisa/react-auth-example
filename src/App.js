@@ -25,9 +25,6 @@ class App extends Component {
               <li class="nav-item">
                 <Link class="nav-link" to="/login">Login</Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
             </ul>
           </div>
         </nav>

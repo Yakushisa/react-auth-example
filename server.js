@@ -36,7 +36,7 @@ app.get('/api/home', function(req, res) {
 });
 
 app.get('/api/secret', withAuth, function(req, res) {
-  res.send('The password is potato');
+  res.send('The user has successfully logged in.');
 });
 
 app.post('/api/register', function(req, res) {

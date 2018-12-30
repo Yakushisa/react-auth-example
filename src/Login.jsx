@@ -41,26 +41,37 @@ export default class Login extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit}>
-      <h1>Login Below!</h1>
-      <input
-      type="email"
-      name="email"
-      placeholder="Enter email"
-      value={this.state.email}
-      onChange={this.handleInputChange}
-      required
-      />
-      <input
-      type="password"
-      name="password"
-      placeholder="Enter password"
-      value={this.state.password}
-      onChange={this.handleInputChange}
-      required
-      />
-      <input type="submit" value="Submit"/>
-      </form>
+      <div class="row">
+        <div class="col-4">
+          <form class="form-group" onSubmit={this.onSubmit}>
+           <div class="form-group">
+              <h3>SignIn</h3>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter email"
+                class="form-control"
+                value={this.state.email}
+                onChange={this.handleInputChange}
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                class="form-control"
+                value={this.state.password}
+                onChange={this.handleInputChange}
+                required
+              />
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit"/>
+          </form>
+        </div>
+      </div>
     );
   }
 }
