@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
-import withAuth from './withAuth';
+import withAuth from './Auth/withAuth';
 import Home from './Home';
 import Secret from './Secret';
 import Login from './Login';
