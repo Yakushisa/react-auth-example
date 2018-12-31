@@ -6,12 +6,14 @@ import Secret from './Secret';
 import Login from './Login';
 import Register from './Register';
 
+import BoostrapLogo from './assets/images/BoostrapLogo.svg';
+
 class App extends Component {
   render() {
     return (
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg" width="30" height="30" alt="" /></a>
+          <a class="navbar-brand" href="#"><img src={BoostrapLogo} width="30" height="30" alt="" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
